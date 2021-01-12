@@ -1,0 +1,58 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+         "responses": ["I am 18 years old!", "18 years young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?"],
+         "responses": ["You can call me HARRY.", "I'm HARRY!", "I'm HARRY te POTTER."],
+         "context_set": ""
+        },
+        {"tag": "shop",
+         "patterns": ["Id like to buy something", "what do you reccommend?", "could i get something to eat"],
+         "responses": ["We sell chocolate chip cookies for $2!", "Cookies are on the menu!"],
+         "context_set": ""
+        },
+        {"tag": "hours",
+         "patterns": ["when are you guys open", "what are your hours", "hours of operation"],
+         "responses": ["We are open 7am-4pm Monday-Friday!"],
+         "context_set": ""
+        },
+	{"tag": "Menu",
+         "patterns": ["What is fresh", "whats on the menu", "What food itmes are avilable","Menucard please", "Tell me menu", "Menu", "May i get food description"],
+         "responses": ["Sir do you want veg or non veg"],
+         "context_set": ""
+        },
+	{"tag": "Veg",
+         "patterns": ["Veg", "We would like to have veg food", "we will prefer vegeterian", "veg men please", "Menu", "May i get food description"],
+         "responses": ["We have Indian and Chinese cuisene","What do you like Indian or Chinese"],
+         "context_set": ""
+        },
+	{"tag": "Indian",
+         "patterns": ["Indian", "We would like to have Indian cuisene", "we will prefer Indian food","veg men please", "Menu", "May i get food description"],
+         "responses": ["1. Bhindi masala , 2. Aloo matar ,3. Veg kurma, 4. Lauki kofta,5. Aloo gobi gravy,6. Baingan bharta,7. Stuffed capsicum,8.  Veg kadai,9. Aloo palak,10. Mix veg11.  Bhindi fry, 12. Palak paneer, 13.  Green peas, 14.  Kovakkai fry"],
+         "context_set": ""
+        },
+	{"tag": "Veg Recpies",
+         "patterns": ["Indian", "We would like to have Indian cuisene", "we will prefer Indian food","veg men please", "Menu", "May i get food description"],
+         "responses": ["We have Indian and Chinese cuisene","What do you like Indian or Chinese"],
+         "context_set": ""
+        },
+	{"tag": "Non Veg",
+         "patterns": ["What is fresh", "What food itmes are avilable", "Menucard please", "Tell me menu","Menu", "May i get food description"],
+         "responses": ["Sir do you want veg or non veg"],
+	 "context_set": ""
+        }
+   ]
+}
