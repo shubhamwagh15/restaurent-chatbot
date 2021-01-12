@@ -80,7 +80,8 @@ result = chat(sentence)
 
 
 
-if result:
+
+if st.button("enter"):
     st.write(result)
 
 
