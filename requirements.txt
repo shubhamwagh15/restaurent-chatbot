@@ -1,3 +1,4 @@
+nltk==3.5
 alabaster==0.7.12
 altair==4.1.0
 appdirs==1.4.4
